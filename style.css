@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+html{
+    font-size: 62.5%;
+   
+}
+
+body{
+    font-size: 1.6rem;
+    cursor: url(./assets/images/pistola1.png), auto;
+}
+
+.background-image{
+    background-image: url(./assets/images/jungle.jpg);
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+
+
+.btn, .music{
+    position: absolute;
+    cursor: url(./assets/images/pistola1.png), auto;
+}
+
+.music{
+    left: 45%;
+    top: 5%;
+    width: 15rem;
+    height: 15rem;
+    
+}
+
+.gameover{
+    display: none;
+    top: 50%;
+    width: 20rem;
+    height: 20rem;
+}
+
+
+#music-on{
+    display: none;
+}
+
+.start{
+    bottom: 25rem;
+    right: 12rem;
+    background: url(./assets/images/playButton2.png);
+    width: 15rem;
+    height: 15rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: none;
+}
+
+.close{
+    bottom: 8rem;
+    right: 11rem;
+    background: url(./assets/images/close2.png);
+    width: 15rem;
+    height: 15rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: none;
+    
+}
+
+
+.start:hover{
+background: url(./assets/images/playButton.png);
+background-repeat: no-repeat;
+background-size: contain;
+border: none;
+}
+
+
+.close:hover{
+    background: url(./assets/images/close.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: none;
+}
+    
+
